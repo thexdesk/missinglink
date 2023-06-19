@@ -12,7 +12,7 @@
   <packaging>maven-plugin</packaging>
 
   <properties>
-    <maven.api.version>3.3.3</maven.api.version>
+    <maven.api.version>3.6.0</maven.api.version>
   </properties>
 
   <dependencies>
@@ -24,7 +24,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>18.0</version>
+      <version>32.0.0-android</version>
     </dependency>
 
     <!-- maven-plugin-annotations seems to be version differently than Maven API stuff  -->
